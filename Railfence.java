@@ -29,7 +29,6 @@ rows = len / 7;
 k=0;
 for(i=1;i<=rows;i++)
 {
-42
 for(j=1;j<=7;j++)
 mat[i][j] = text.charAt(k++);
 }
@@ -71,7 +70,6 @@ if (key[p] == k)
 {
 j = p+1;
 k++;
-43
 break;
 }
 }
@@ -112,7 +110,6 @@ for(i=0;i<7;i++)
 c = br.readLine();
 key[i] = Integer.parseInt(c);
 }
-44
 for(i=0;i<7;i++)
 System.out.print(key[i] + " ");
 String plain = new String();
